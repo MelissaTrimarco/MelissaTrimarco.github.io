@@ -1,0 +1,428 @@
+    html {
+        font: normal 16px/24px Roboto, sans-serif;
+        letter-spacing: 0;
+        color: #404040;
+    }
+    
+    body>div:nth-of-type(2) {
+        position: relative;
+        /* for scrollspy */
+    }
+    
+    bg-white {
+        background-color: #ffffff;
+    }
+    
+    b,
+    strong {
+        font-weight: bold;
+    }
+    
+    p {
+        margin: 0;
+    }
+    
+    a {
+        color: #1B9EDA;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    /**** Table stripe color change ****/
+    
+    .table-striped>tbody>tr:nth-child(odd)>td,
+    .table-striped>tbody>tr:nth-child(odd)>th {
+        background-color: #E6E6E6;
+    }
+    
+    .table-striped>tbody>tr:nth-child(even)>td,
+    .table-striped>tbody>tr:nth-child(even)>th {
+        background-color: #fafafa;
+    }
+    /**** Table border radius ****/
+    /* top-left border-radius */
+    
+    table tr:first-child th:first-child {
+        border-top-left-radius: 6px;
+    }
+    /* top-right border-radius */
+    
+    table tr:first-child th:last-child {
+        border-top-right-radius: 6px;
+    }
+    /* bottom-left border-radius */
+    
+    table tr:last-child td:first-child {
+        border-bottom-left-radius: 6px;
+    }
+    /* bottom-right border-radius */
+    
+    table tr:last-child td:last-child {
+        border-bottom-right-radius: 6px;
+    }
+    /* horizontal line */
+    
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 4px solid #1B9EDA;
+    }
+    
+    .introtext_one {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: #1B9EDA;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .introtext_two {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 16px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .introtext_ittwo {
+        font-style: italic;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 14px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .introtext_whtone {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: #ffffff;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .introtext_whttwo {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 16px;
+        color: #ffffff;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .bg-ltBlue {
+        background-color: #E6E6E6;
+        text-align: center;
+    }
+    
+    .bg-dkBlue {
+        background-color: #1B9EDA;
+        text-align: center;
+    }
+    /*
+
+Welcome to the style sheet for the plans calculators.
+
+You should not need to change much in the styling bar a few colours and box designs.
+
+In the section below as far as the big spacer should find everything you need to change these elements.
+
+If you need to change anything past that line and are unsure please contact someone who can help rather than tackle it yourself.
+
+/*  ------------ For slightly more customisation ------------  */
+    /*  ------------  Box's ------------  */
+    
+    input {
+        margin-top: 0.5rem;
+    }
+    
+    input::placeholder {
+        font-size: 16px;
+    }
+    
+    .free-input,
+    .calc-box,
+    .calc_button {
+        border-radius: 0;
+        /* This changes the curve radius round the box's, 0=None 5=Slight 10=Normal 20=Rounded */
+    }
+    
+    .free-input,
+    .calc-box {
+        border: 2px solid #1B9EDA;
+        /* Box's of input fields - when changing colour do find and replace to make buttons match */
+        text-align: center;
+    }
+    /*  ------------  Buttons  ------------  */
+    /* See above for free-input, make all backgrounds and borders the same as that where necessary */
+    
+    .calc_button {
+        border: 2px solid #1B9EDA;
+    }
+    
+    .ui-button:hover {
+        background: #1B9EDA;
+        border: 2px solid #1B9EDA;
+        color: #FFFFFF;
+        /* Box text colour, remove this field to revert to default colour of page */
+    }
+    
+    .ui-button {
+        color: #000000;
+    }
+    
+    .ui-state-active {
+        background: #1B9EDA;
+        color: #FFFFFF;
+        /* Box text colour, remove this field to revert to default colour of page */
+    }
+    /*  ------------  Boxs  ------------  */
+    
+    .free-input,
+    .calc-box,
+    .calc_button {
+        padding: 10px 20px;
+        width: calc(70% - 20px);
+    }
+    
+    .calc_button {
+        padding: 10px;
+    }
+    
+    .valueblock,
+    .radblock {
+        margin-bottom: 25px;
+    }
+    
+    .valuetext p {
+        margin-bottom: 5px;
+    }
+    
+    .blocka .free-input .calc-box {
+        width: calc(60% - 20px);
+    }
+    
+    .hrbox {
+        width: calc(100% - 20px);
+    }
+    
+    .splitline {
+        border-top: 4px solid #d4d4d4;
+    }
+    
+    .ui-button:hover {
+        box-shadow: 1px 1px 1px #000000;
+    }
+    
+    .ui-button {
+        background: #ffffff;
+    }
+    
+    .ui-state-active {
+        box-shadow: none;
+    }
+    
+    .pricetext {
+        font-size: 22px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    @media (max-width: 768px) {
+        .blockb,
+        .blockc {
+            width: 100%;
+            float: none;
+        }
+        .blocka .free-input .calc-box {
+            width: calc(50% - 20px);
+        }
+        .pricetext {
+            font-size: 22px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+    
+    @media (max-width: 575px) {
+        .pricetext {
+            font-size: 22px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .calcbody {
+            padding: 30px 20px;
+        }
+        .free-input,
+        .calc-box,
+        .calc_button {
+            width: 100%;
+        }
+        .blocka .free-input .calc-box {
+            width: 100%;
+        }
+        .radblock {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .hrbox {
+            width: 100%;
+        }
+    }
+    
+    #externalLinkExplanation {
+        text-align: right;
+    }
+    /**** 
+
+CARDS 
+
+****/
+    
+    .picture2 {
+        display: none;
+    }
+    
+    .thumbnail:hover .picture1 {
+        display: none;
+    }
+    
+    .thumbnail:hover .picture2 {
+        display: block;
+    }
+    /*
+  Footer
+*/
+    
+    .page-footer {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        color: #ffffff;
+        background-color: #444444;
+        text-align: left;
+        padding: 20px 35px;
+    }
+    
+    .footer {
+        color: #ffffff;
+        background-color: #444444;
+        text-align: left;
+        padding: 20px;
+        line-height: 110%;
+    }
+    
+    .border-primary {
+        border-width: 2px;
+    }
+    
+    img {
+        transform: translateZ(0);
+        /* To stop image blurriness on Chrome, see https://stackoverflow.com/a/66979096/8942566 */
+        image-rendering: -webkit-optimize-contrast;
+        /* same same, but different; https://stackoverflow.com/a/42216003/8942566 */
+        padding-top: 0;
+        padding-bottom: 0;
+        line-height: normal;
+    }
+    
+    body {
+        font: 300 16px/24px Roboto, sans-serif;
+    }
+    
+    @media (max-width:575.98px) {
+        .picture1 img {
+            width: 100px;
+        }
+        .picture2 img {
+            width: 100px;
+        }
+        .card {
+            width: 100%;
+            text-align: center;
+        }
+        .card-deck {
+            width: 100%;
+            padding-bottom: 30px;
+        }
+        .card-deck .card {
+            flex: 1 0 30ch;
+            margin-bottom: 30px;
+            margin-right: 0;
+            margin-left: 0;
+        }
+        .customerContent {
+            width: 100%;
+        }
+    }
+    
+    @media (max-width:767.98px) {
+        .container .icons {
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+        .card-deck {
+            text-align: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+        }
+        .customerContent {
+            width: 100%;
+        }
+    }
+    
+    @media (max-width:991.98px) {
+        .container .icons {
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+        .picture1 img {
+            width: 120px;
+        }
+        .picture2 img {
+            width: 120px;
+        }
+    }
+    
+    @media (min-width:992px) {
+        #externalLinkExplanation {
+            left: 0;
+            text-align: left;
+        }
+        .container .icons {
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+    }
+    
+    @media screen and (min-width:1140px) {
+        .container .icons {
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+        h1 {
+            font-size: clamp(2rem, 4vw, 2.5rem);
+            font-weight: 300;
+        }
+        h2 {
+            font-size: clamp(2rem, 4vw, 2.5rem);
+            font-weight: 400;
+        }
+        h3 {
+            font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+        }
+        h4 {
+            font-size: clamp(1rem, 2vw, 1.5rem);
+            font-weight: 700;
+            color: #da291c;
+        }
+    }

@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ESPP Modeling Tool</title>
+    <meta name="author" content="Melissa Trimarco">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/base.css" media="screen">
+	<link href="https://fonts.googleapis.com/css?family=font-family: 'Roboto',  sans-serif;" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script>
+
+
+    <script>
+        $(function() {
+            $(".radio-button").checkboxradio({
+                icon: false,
+            });
+        });
+    </script>
+    <style type="text/css">
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--Begin Home Page-->
+    <div id="home" class="bg-light">
+        <div class="container">
+            <div class="col-12">
+				               <!--Begin Navbar-->
+			<div class="container">
+               <nav class = "navbar navbar-expand-sm bg-secondary navbar-dark">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <a class="navbar-brand mx-2" href="https://www.google.com/" style="color:#1B9EDA;">Happy Paws</a>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="calculator.html">Calculations</a>
+                        </li>
+                     </ul>
+                  </div>
+               </nav>
+				</div>  	
+               <!--End Nav-->
+				
+                <div class="container">
+                  <div class="bg-white">
+                        <!--Begin Happy Paws created content-->
+                        <img class="img-fluid" src="images/estimate_hero.jpg" alt="Employee Stock Purchase Plan">
+                      
+                        
+                        <!--End Happy Paws created content-->
+                        <!--Begin Happy Paws created content-->
+                        <!--Begin Table-->
+                        <div class="container-fluid w-75 customerContent">
+                            <p class="h3 mt-4" style="color: #1B9EDA; font-family: 'Roboto',sans-serif;">Modeling tool</p>
+                            <p><strong>How does the ESPP work?</strong></p>
+                            <p>This example has been created to show how our ESPP works. Please note the values used are for illustrative purposes only.</p>
+
+                            <p class="h5 text-center mt-4" style="color: #1B9EDA; font-family: 'Roboto',sans-serif;"><strong>HAPPY PAWS CONTRIBUTION TO YOUR COMPANY STOCK OWNERSHIP</strong></p>
+                            <div class="table-responsive">
+                                <!--Table-->
+                                <table class="table table-striped w-auto mt-1 mb-1 text-center ">
+                                    <!--Table head-->
+                                    <thead style="background-color:#1B9EDA;">
+                                        <tr>
+                                            <th class="th-sm text-white">If you contribute&#58;</th>
+                                            <th class="th-sm text-white">Your plan year payroll deduction contribution is&#58;</th>
+                                            <th class="th-sm text-white">Happy Paws matching contribution&#42; is&#58;</th>
+                                            <th class="th-sm text-white">Total amount used to purchase Happy Paws stock</th>
+                                        </tr>
+                                    </thead>
+                                    <!--Table head-->
+                                    <!--Table body-->
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center">&#36;10 biweekly</td>
+                                            <td class="text-center">&#36;260</td>
+                                            <td class="text-center">&#36;39</td>
+                                            <td class="text-center">&#36;299</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">&#36;20 biweekly</td>
+                                            <td class="text-center">&#36;520</td>
+                                            <td class="text-center">&#36;78</td>
+                                            <td class="text-center">&#36;598</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">&#36;70 biweekly</td>
+                                            <td class="text-center">&#36;1,820</td>
+                                            <td class="text-center">&#36;270 &#40;Happy Paws matches &#36;0.15 for every &#36;1 up to &#36;1,800&#41;</td>
+                                            <td class="text-center">&#36;2,090</td>
+                                        </tr>
+                                        </tbody>
+                                    <!--Table body-->
+                                </table>
+                                <!--Table-->
+                            </div>
+                            <p class="introtext_two mt-0 mb-3">&#42;Company contributions will be made only on stock purchased through payroll deductions.</p>
+                        </div>
+                        <!--End Table-->
+                        <hr>
+                        <div class="calcbody">
+
+                            <!-- VALUES FOR CALCULATIONS -->
+
+
+                            <div class="variable" id="currency" hidden>$</div>
+                            <!-- Currency -->
+                            <div class="variable" id="minAmount" hidden>2</div>
+                            <!-- Monthly saving Min	-->
+                            <div class="variable" id="maxAmount" hidden>1000</div>
+                            <!-- Monthly saving Max	-->
+
+
+                            <!-- VALUES END -->
+                            <p class="introtext_one">Use our interactive modeling tool to estimate how much your investment could be worth.</p>
+                            <p class="introtext_two mb-3">This tool models potential outcomes when participating in the ESPP and is designed to show outcomes based on the assumptions given. Fluctuations in stock price will affect the result. You should not regard this tool as any guarantee of a particular investment result.</p>
+                        </div>
+
+
+                        <div class="container bg-ltBlue py3">
+                            <!--Begin Calculator Input-->
+                            <p class="introtext_one mt-1 mb-0">&nbsp;</p>
+                            <p class="introtext_one mt-2 mb-1">Step 1</p>
+                            <p class="introtext_one mt-2 mb-1">How much would you like to contribute per pay period?</p>
+
+                            <div class="valueblock blocka my-0">
+
+                                <div class="valuebox my-0">
+                                    <input id="monthly-savings" class="free-input" type="text" pattern="[0-9]" placeholder="Enter an amount here from $2 - $1,000 (whole numbers only)">
+
+                                </div>
+                            </div>
+
+                            <p class="introtext_two mt-2 mb-1">This estimates the total investment for the plan year to be</p>
+                            <div class="valueblock blocka my-0">
+
+                                <div class="valuebox my-0">
+                                    <p><input id="total-savings" class="calc-box" pattern="[0-9]" type="text" placeholder="$xxxxxx"></p>
+                                </div>
+                            </div>
+
+
+                            <p class="introtext_two mt-2 mb-2"><strong>Note</strong>&#58; The maximum amount you can contribute in a given plan year through payroll deductions&#42; is up to &#36;26,000.<br>&#42;Payroll deductions start within two pay periods after you enroll.</p>
+                            <p class="introtext_one mt-4 mb-1">Step 2</p>
+                            <p class="introtext_one mt-2 mb-1">Enter an estimated Happy Paws stock price</p>
+
+
+
+                            <p class="introtext_two mt-2 mb-1">Stock price to be used for the estimate&#58;</p>
+
+                            <div class="valueblock blocka my-0">
+
+                                <div class="valuebox my-0">
+                                    <input id="option-price" class="free-input" type="text" pattern="[0-9]" placeholder="$xxxx.xx">
+
+                                </div>
+                            </div>
+
+                            <p class="introtext_ittwo mt-1 ">You can find further information about the Happy Paws stock price <a href="https://www.nasdaq.com/market-activity/stocks/googl">here</a>.</p>
+                        </div>
+                        <!--End Table-->
+                        <hr>
+                        <!--Start Output Calculator Section-->
+                        <p class="introtext_one mt-2 mb-1">View Estimated Results</p>
+                        <p class="introtext_two mt-2 mb-1">These values are calculated using the estimated stock price you entered above.</p>
+
+                        <!--Begin Calculator DK Blue Background-->
+                        <div class="container bg-dkBlue py-3">
+                            <!--Begin Calculator Input-->
+                            <p class="introtext_whtone mt-2 mb-1">Your plan year payroll deduction contribution&#58;</p>
+                            <div class="valueblock blocka my-0">
+
+                                <div class="valuebox my-0">
+                                    <p><input id="yearly-savings" class="calc-box" pattern="[0-9]" type="text" placeholder="$xxxxxx"></p>
+                                </div>
+                            </div>
+
+                            <p class="introtext_whtone mt-4 mb-1">Happy Paws matching contribution&#42; is&#58;</p>
+                            <div class="valueblock blocka my-0">
+                                <div class="valuebox my-0">
+                                    <p><input id="match-value" class="calc-box" pattern="[0-9]" type="text" placeholder="$xxxxxx"></p>
+                                </div>
+                            </div>
+
+                            <p class="introtext_whtone mt-4 mb-1">Total amount used to purchase Happy Paws stock&#58;</p>
+                            <div class="valueblock blocka my-0">
+                                <div class="valuebox my-0">
+                                    <p><input id="match-total" class="calc-box" pattern="[0-9]" type="text" placeholder="$xxxx.xx"></p>
+                                </div>
+                            </div>
+
+                            <p class="introtext_whtone mt-4 mb-1">Total Happy Paws stock acquired&#58;</p>
+                            <div class="valueblock blocka my-0">
+                                <div class="valuebox my-0">
+                                    <p><input id="num-shares" class="calc-box" pattern="[0-9]" type="text" placeholder="xxxxxxxxx.xxx"></p>
+                                </div>
+                            </div>
+
+
+                            <p class="introtext_whttwo my-4">Don’t forget, stock you acquire through the ESPP will be eligible for any dividends declared by Happy Paws. These are issued as additional stock. Additional information on Happy Paws stock and dividends can be located on the
+                                <a href="https://abc.xyz/investor/" style="color:#ffffff;">Happy Paws Investor Relations</a> webpage.</p>
+                        </div>
+                        <!-- End Calculator Output-->
+					  <!--Begin Footer content-->
+                     <!-- Footer -->
+                     <footer class="bg-dark text-center text-white">
+                        <!-- Grid container -->
+                        <div class="container p-4">
+                           <!-- Section: Text -->
+                           <section class="mb-4">
+                              <p class="text-white text-sm-center font-weight-lighter small mx-2">
+                                 Thanks for checking out my example an Employee Stock Purchase Plan &#40;ESPP&#41; communications website.
+                              </p>
+                           </section>
+                           <!-- Section: Text -->
+                        </div>
+                        <!-- Section: Social media -->
+                        <!-- Developed By -->
+                        <div class="text-center p-3 text-white text-sm-center font-weight-lighter small" style="background-color: rgba(0, 0, 0, 0.2);">
+                           Developed by 
+                           <a class="text-white text-muted" href="https://melissatrimarco.com/">Melissa Trimarco</a>
+                        </div>
+                        <!-- Devloped By -->
+                     </footer>
+                     <!-- Footer -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
