@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"  xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+   <head>
+      <!-- START HEAD v1-->
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <!--[if !mso]><!-->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <!--<![endif]-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="format-detection" content="telephone=no" />
+      <meta name="x-apple-disable-message-reformatting" />
+      <!-- /*  Developed by Melissa Trimarco 1-13-24  */ -->
+      <title>Fetch Email Exercise</title>
+      <script type="application/json" id="data">
+         {
+             "birthDate": "Mon, 23 Oct 1988 19:07:56 GMT"
+         }
+      </script>
+      <!-- Handlebars Rendering Script -->
+      <script type="module">
+         import Handlebars from "https://cdn.jsdelivr.net/npm/handlebars@4.7.8/+esm";
+         
+         // Define helpers for age calculation and comparisons
+         Handlebars.registerHelper('calculateAge', function(birthDate) {
+             // Age calculation logic
+         });
+         Handlebars.registerHelper('lt', function(a, b) {
+             return a < b;
+         });
+         Handlebars.registerHelper('gte', function(a, b) {
+             return a >= b;
+         });
+         Handlebars.registerHelper('lte', function(a, b) {
+             return a <= b;
+         });
+         
+         // Compile and render the template
+         const template = document.getElementById('template').innerHTML;
+         document.body.innerHTML = Handlebars.compile(template)(JSON.parse(data.innerHTML));
+      </script>
+      <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+         table {border-collapse: collapse !important;}
+      </style>
+      <![endif]-->
+      <!--[if gte mso 9]>
+      <xml>
+         <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+         </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+      <!-- /* EMAIL CLIENT SPECIFIC FIXES */ -->
+      <style type="text/css">
+         @-ms-viewport { 
+         width: device-width; 
+         }
+         #outlook a {
+         padding:0;
+         }
+         .ReadMsgBody{
+         width:100%;
+         } 
+         .ExternalClass{
+         width:100%;
+         }
+         .ExternalClass,
+         .ExternalClass p,
+         .ExternalClass span,
+         .ExternalClass font,
+         .ExternalClass td,
+         .ExternalClass div {
+         line-height: 100%;
+         }
+      </style>
+      <!-- /* TEMPLATE SPECIFIC STYLES */ -->
+      <style type="text/css">
+         .appleLinksBlack a {
+         color: #000000!important; 
+         text-decoration: none!important;
+         }
+         .appleLinksWhite a {
+         color: #FFFFFF !important; 
+         text-decoration: none!important;
+         }
+         #header-img {
+         height: 250px;
+         width:100%
+         } 
+      </style>
+      <!-- /* RESPONSIVE STYLES */ -->
+      <style type="text/css">
+         @media screen and (max-width: 620px) {
+         .two-column .column,  .three-column .column {
+         max-width: 100% !important;
+         }
+         .two-column img {
+         max-width: 100% !important;
+         }
+         .image_mobile {
+         display:block!important; max-height: none !important; max-width:none !important; line-height: 1.5 !important;width:100%!important; height:auto!important;
+         }
+         .hide {
+         display:none!important; width:0px!important; height: 0px!important; overflow:hidden!important; line-height: 0px!important; font-size:0px!important;
+         }		 
+         }
+         }
+      </style>
+   </head>
+   <!-- END HEAD -->
+   <body style="margin:0;padding:0;min-width:100%;background-color:#ffffff;">
+      <template id="template">
+         <!-- Write your Handlebars template here -->
+         <h1>{{ birthDate }}</h1>
+         <!-- START PRE-HEADER -->  
+         <div style="display:none;font-size:1px;color:#444444;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Fetch Pre-Header is placed here.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+         <!-- START OUTER WRAPPER -->
+         <center class="wrapper" style="width:100%;table-layout:fixed;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;background-color:#DCDCDC;">
+            <!--[if mso | IE]>
+            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" align="center" style="width:100%;" bgcolor="#DCDCDC">
+            <![endif]-->
+            <div class="webkit" style="max-width:600px;background-color:#FFFFFF;">
+               <!--[if (gte mso 9)|(IE)]>
+               <table width="600" align="center" bgcolor="#FFFFFF"  style="background-color:#FFFFFF;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;" >
+                  <tr>
+                     <td style="padding:0;border-collapse:collapse;" >
+                        <![endif]-->
+                        <table class="outer" align="center" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;margin:0 auto;width:100%;max-width:600px;">
+                           <!-- END OUTER WRAPPER -->
+                           <!-- START ALL CONTENT -->
+                           <!-- START SINGLE COLUMN v1 -->
+                           <tr>
+                              <td class="one-column" style="padding:0;border-collapse:collapse;">
+                                 <table width="100%" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;">
+                                    <!-- START Right aligned padded Logo v1 -->
+                                    <tr>
+                                       <td class="one-column" style="padding:0;border-collapse:collapse;" >
+                                          <table width="100%" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;"  role="presentation">
+                                             <tr>
+                                                <td style="padding-top:10px;padding-bottom:30px;padding-right:10px;padding-left:10px;border-collapse:collapse;text-align: left;" >
+                                                   <a href="https://www.fetch.com">	
+                                                   <img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/Fetch_Logo_Secondary_Horizontal.png" width="170" alt="Fetch" style="-ms-interpolation-mode:bicubic;border-width:0;width:100%;max-width:170px;height:auto;" /></a>
+                                                </td>
+                                             </tr>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                    <!-- END Logo --> 
+                                    <!--    :)   START IMAGE BANNER FULL WIDTH v1   :)   -->
+                                    <tr>
+                                       <td style="padding:0;border-collapse:collapse;">
+                                          <a href="https://www.fetch.com">
+                                          <img border="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/DESKTOP_HDR_1.png" width="600" alt="Fetch Header Desktop version" style="display:block; outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;width:100%;height:auto;" class="hide">
+                                          </a>
+                                          <div style="display:none; font-size:0; line-height:0; mso-hide: all; max-height: 0; max-width: 0; width:0;" class="image_mobile">
+                                             <a href="https://www.fetch.com">
+                                             <img border="0" width="100%" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/MOBILE_HDR_1.png" alt="Fetch Header Mobile version" style="display:none; font-size:0; line-height:0; mso-hide: all;max-height: 0; max-width: 0; width:0; -ms-interpolation-mode: bicubic;" class="image_mobile"></a>
+                                          </div>
+                                       </td>
+                                    </tr>
+                                    <!--    :)   END IMAGE BANNER FULL WIDTH   :)   -->
+                                    <!-- START SINGLE COLUMN v1 -->
+                                    <tr>
+                                       <td class="one-column" style="padding:0;border-collapse:collapse;">
+                                          <table width="100%" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;">
+                                             <!-- START TEXT -->
+                                             <tr>
+                                                <td class="inner contents" style="border-collapse:collapse;padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;width:100%;text-align:left;">
+                                                   <p style="margin:0;font-size:16px;line-height:22px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat egestas urna, eu facilisis ante sagittis et. Sed sed pharetra lectus. Ut non ex risus.</p>
+                                                </td>
+                                             </tr>
+                                             <!-- END TEXT -->
+                                             <!-- END SINGLE COLUMN -->
+                                             <!-- START TWO COLUMN v1  -->
+                                             <tr>
+                                                <td class="two-column" style="padding:0;border-collapse:collapse;" >
+                                                   <table width="100%" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;" role="presentation">
+                                                      <!--    :)   START IMAGE BANNER FULL WIDTH v1   :)   -->
+                                                      <tr>
+                                                         <td style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;border-collapse:collapse;">
+                                                            <a href="https://www.fetch.com">
+                                                            <img align="center" border="0" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/Fullwidth%20snippet_1.png" width="580" alt="Fetch Full Width Modules" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width:100%;max-width: 580px; height: auto; text-align: center;" >
+                                                            </a>
+                                                         </td>
+                                                      </tr>
+                                                      <!--    :)   END IMAGE BANNER FULL WIDTH   :)   --> 
+                                                      <tr>
+                                                         <!-- START 2 Column Scaffold -->
+                                                         <td class="two-column" style="padding:0;border-collapse:collapse;text-align:center;font-size:0;" >
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                            <table width="100%" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;" role="presentation">
+                                                               <tr>
+                                                                  <td width="50%" valign="top" style="padding:0;border-collapse:collapse;" >
+                                                                     <![endif]-->
+                                                                     <!-- ///////////////////////////////////////////
+                                                                        ////////   START First Column Content  /////////
+                                                                        //////////////////////////////////////////////-->
+                                                                     <div class="column" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;" >
+                                                                        <table width="100%" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;" role="presentation">
+                                                                           <tr>
+                                                                              <td class="inner" style="border-collapse:collapse;padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                                                                                 <table class="contents" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;width:100%;font-size:16px;text-align:left;" role="presentation">
+                                                                                    <tr>
+                                                                                       <td style="padding:0;border-collapse:collapse;" >
+                                                                                          <a href="https://www.fetch.com">
+                                                                                          <img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/1_1.png" width="280" alt="Fetch Half-Screen Module" style="-ms-interpolation-mode:bicubic;border-width:0;width:100%;max-width:280px;height:auto;" />
+                                                                                          </a>
+                                                                                       </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                       <td class="extend" style="line-height: 0; font-size: 0px; mso-hide: all;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+                                                                                    </tr>
+                                                                                 </table>
+                                                                              </td>
+                                                                           </tr>
+                                                                        </table>
+                                                                     </div>
+                                                                     <!--[if (gte mso 9)|(IE)]>
+                                                                  </td>
+                                                                  <td width="50%" valign="top" style="padding:0;border-collapse:collapse;" >
+                                                                     <![endif]-->
+                                                                     <!-- ///////////////////////////////////////////
+                                                                        ////////   START Second Column Content  ////////
+                                                                        /////////////////////////////////////////////-->
+                                                                     <div class="column" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;" >
+                                                                        <table width="100%" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;" role="presentation">
+                                                                           <tr>
+                                                                              <td class="inner" style="border-collapse:collapse;padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                                                                                 <table class="contents" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;width:100%;font-size:16px;text-align:left;" role="presentation">
+                                                                                    <tr>
+                                                                                       <td class="text" style="padding-bottom:0;padding-right:10px;padding-left:10px;border-collapse:collapse;padding-top:10px;" >
+                                                                                          <p style="margin:0;font-size:16px;line-height:22px;margin-bottom:0;">Nulla consequat urna nunc, sit amet dapibus leo sollicitudin in. Curabitur id faucibus justo. In malesuada risus arcu, vitae pellentesque leo dignissim et. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                                                                                       </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                       <td class="extend" style="line-height: 0; font-size: 0px; mso-hide: all;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+                                                                                    </tr>
+                                                                                 </table>
+                                                                              </td>
+                                                                           </tr>
+                                                                        </table>
+                                                                     </div>
+                                                                     <!-- END Second Column Content -->
+                                                                     <!--[if (gte mso 9)|(IE)]>
+                                                                  </td>
+                                                               </tr>
+                                                            </table>
+                                                            <![endif]-->
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <!-- START 2 Column Scaffold -->
+                                                         <td class="two-column" style="padding:0;border-collapse:collapse;text-align:center;font-size:0;" >
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                            <table width="100%" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;" role="presentation">
+                                                               <tr>
+                                                                  <td width="50%" valign="top" style="padding:0;border-collapse:collapse;" >
+                                                                     <![endif]-->
+                                                                     <!-- ///////////////////////////////////////////
+                                                                        ////////   START First Column Content  /////////
+                                                                        //////////////////////////////////////////////-->
+                                                                     <div class="column" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;" >
+                                                                        <table width="100%" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;" role="presentation">
+                                                                           <tr>
+                                                                              <td class="inner" style="border-collapse:collapse;padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                                                                                 <table class="contents" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;width:100%;font-size:16px;text-align:left;" role="presentation">
+                                                                                    <tr>
+                                                                                       <td class="text" style="padding-bottom:0;padding-right:10px;padding-left:10px;border-collapse:collapse;padding-top:10px;" >
+                                                                                          <p style="margin:0;font-size:16px;line-height:22px;margin-bottom:0;">Nulla consequat urna nunc, sit amet dapibus leo sollicitudin in. Curabitur id faucibus justo. In malesuada risus arcu, vitae pellentesque leo dignissim et. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                                                                                       </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                       <td class="extend" style="line-height: 0; font-size: 0px; mso-hide: all;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+                                                                                    </tr>
+                                                                                 </table>
+                                                                              </td>
+                                                                           </tr>
+                                                                        </table>
+                                                                     </div>
+                                                                     <!--[if (gte mso 9)|(IE)]>
+                                                                  </td>
+                                                                  <td width="50%" valign="top" style="padding:0;border-collapse:collapse;" >
+                                                                     <![endif]-->
+                                                                     <!-- ///////////////////////////////////////////
+                                                                        ////////   START Second Column Content  ////////
+                                                                        /////////////////////////////////////////////-->
+                                                                     <div class="column" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;" >
+                                                                        <table width="100%" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;" role="presentation">
+                                                                           <tr>
+                                                                              <td class="inner" style="border-collapse:collapse;padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                                                                                 <table class="contents" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;width:100%;font-size:16px;text-align:left;" role="presentation">
+                                                                                    <tr>
+                                                                                       <td style="padding:0;border-collapse:collapse;" >
+                                                                                          <a href="https://www.fetch.com"><img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/1_1.png" width="280" alt="Fetch Half-Screen Module" style="-ms-interpolation-mode:bicubic;border-width:0;width:100%;max-width:280px;height:auto;" />
+                                                                                          </a>
+                                                                                       </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                       <td class="extend" style="line-height: 0; font-size: 0px; mso-hide: all;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+                                                                                    </tr>
+                                                                                 </table>
+                                                                              </td>
+                                                                           </tr>
+                                                                        </table>
+                                                                     </div>
+                                                                     <!-- END Second Column Content -->
+                                                                     <!--[if (gte mso 9)|(IE)]>
+                                                                  </td>
+                                                               </tr>
+                                                            </table>
+                                                            <![endif]-->
+                                                         </td>
+                                                      </tr>
+                                                      <tr>
+                                                         <!-- START 2 Column Scaffold -->
+                                                         <td class="two-column" style="padding:0;border-collapse:collapse;text-align:center;font-size:0;" >
+                                                            <!--[if (gte mso 9)|(IE)]>
+                                                            <table width="100%" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;" role="presentation">
+                                                               <tr>
+                                                                  <td width="50%" valign="top" style="padding:0;border-collapse:collapse;" >
+                                                                     <![endif]-->
+                                                                     <!-- ///////////////////////////////////////////
+                                                                        ////////   START First Column Content  /////////
+                                                                        //////////////////////////////////////////////-->
+                                                                     <div class="column" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;" >
+                                                                        <table width="100%" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;" role="presentation">
+                                                                           <tr>
+                                                                              <td class="inner" style="border-collapse:collapse;padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                                                                                 <table class="contents" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;width:100%;font-size:16px;text-align:left;" role="presentation">
+                                                                                    <tr>
+                                                                                       <td style="padding:0;border-collapse:collapse;" >
+                                                                                          <a href="https://www.fetch.com"><img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/1_1.png" width="280" alt="Fetch Half-Screen Module" style="-ms-interpolation-mode:bicubic;border-width:0;width:100%;max-width:280px;height:auto;" />
+                                                                                          </a>
+                                                                                       </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                       <td class="extend" style="line-height: 0; font-size: 0px; mso-hide: all;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+                                                                                    </tr>
+                                                                                 </table>
+                                                                              </td>
+                                                                           </tr>
+                                                                        </table>
+                                                                     </div>
+                                                                     <!--[if (gte mso 9)|(IE)]>
+                                                                  </td>
+                                                                  <td width="50%" valign="top" style="padding:0;border-collapse:collapse;" >
+                                                                     <![endif]-->
+                                                                     <!-- ///////////////////////////////////////////
+                                                                        ////////   START Second Column Content  ////////
+                                                                        /////////////////////////////////////////////-->
+                                                                     <div class="column" style="width:100%;max-width:300px;display:inline-block;vertical-align:top;" >
+                                                                        <table width="100%" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;" role="presentation">
+                                                                           <tr>
+                                                                              <td class="inner" style="border-collapse:collapse;padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;" >
+                                                                                 <table class="contents" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;width:100%;font-size:16px;text-align:left;" role="presentation">
+                                                                                    <tr>
+                                                                                       <td class="text" style="padding-bottom:0;padding-right:10px;padding-left:10px;border-collapse:collapse;padding-top:10px;" >
+                                                                                          <p style="margin:0;font-size:16px;line-height:22px;margin-bottom:0;">Nulla consequat urna nunc, sit amet dapibus leo sollicitudin in. Curabitur id faucibus justo. In malesuada risus arcu, vitae pellentesque leo dignissim et. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                                                                                       </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                       <td class="extend" style="line-height: 0; font-size: 0px; mso-hide: all;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+                                                                                    </tr>
+                                                                                 </table>
+                                                                              </td>
+                                                                           </tr>
+                                                                        </table>
+                                                                     </div>
+                                                                     <!-- END Second Column Content -->
+                                                                     <!--[if (gte mso 9)|(IE)]>
+                                                                  </td>
+                                                               </tr>
+                                                            </table>
+                                                            <![endif]-->
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                             <!-- END TWO COLUMN -->
+                                             <!-- START SOCIAL MEDIA ORDER PER AGE -->
+                                             <tr>
+                                                <td style="padding-top:10px;padding-bottom:10px;padding-right:10px;padding-left:10px;border-collapse:collapse;">
+                                                   {{#with (calculateAge birthDate)}}
+                                                   {{#if (lt this 35)}}
+                                                   <!-- Under 35: TikTok > Instagram > Twitter > Facebook -->
+                                                   <a href="https://www.fetch.com">
+                                                   <img align="center" border="0" width="580" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width:100%;max-width: 580px; height: auto; text-align: center;"  src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/editor_images/DSN2-6828%20%20%20Social%20Invite%20Email%20Refresh_MODULE_TIKTOK_MOBILE.ENG%20%282%29.png" alt="TikTok">
+                                                   </a>
+                                                   <a href="https://www.fetch.com">
+                                                   <img align="center" border="0" width="580" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width:100%;max-width: 580px; height: auto; text-align: center;"  src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/editor_images/DSN2-6828%20%20%20Social%20Invite%20Email%20Refresh_MODULE_INSTAGRAM_MOBILE.ENG%20%281%29_1.png" alt="Instagram">
+                                                   </a>
+                                                   <a href="https://www.fetch.com">
+                                                   <img align="center" border="0" width="580" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width:100%;max-width: 580px; height: auto; text-align: center;"  src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/editor_images/DSN2-6828%20%20%20Social%20Invite%20Email%20Refresh_MODULE_X_MOBILE.ENG_1.png" alt="X">
+                                                   </a>
+                                                   <a href="https://www.fetch.com">
+                                                   <img align="center" border="0" width="580" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width:100%;max-width: 580px; height: auto; text-align: center;"  src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/editor_images/DSN2-6828%20%20%20Social%20Invite%20Email%20Refresh_MODULE_FACEBOOK_MOBILE.ENG%20%281%29.png" alt="Facebook">
+                                                   </a>
+                                                   {{else if (and (gte this 35) (lte this 55))}}
+                                                   <!-- 35-55: Instagram > Twitter > TikTok > Facebook -->
+                                                   <a href="https://www.fetch.com">
+                                                   <img align="center" border="0" width="580" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width:100%;max-width: 580px; height: auto; text-align: center;"  src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/editor_images/DSN2-6828%20%20%20Social%20Invite%20Email%20Refresh_MODULE_INSTAGRAM_MOBILE.ENG%20%281%29_1.png" alt="Instagram">
+                                                   </a>
+                                                   <a href="https://www.fetch.com">
+                                                   <img align="center" border="0" width="580" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width:100%;max-width: 580px; height: auto; text-align: center;"  src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/editor_images/DSN2-6828%20%20%20Social%20Invite%20Email%20Refresh_MODULE_X_MOBILE.ENG_1.png" alt="X">
+                                                   </a>
+                                                   <a href="https://www.fetch.com">
+                                                   <img align="center" border="0" width="580" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width:100%;max-width: 580px; height: auto; text-align: center;"  src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/editor_images/DSN2-6828%20%20%20Social%20Invite%20Email%20Refresh_MODULE_TIKTOK_MOBILE.ENG%20%282%29.png" alt="TikTok">
+                                                   </a>
+                                                   <a href="https://www.fetch.com">
+                                                   <img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/editor_images/DSN2-6828%20%20%20Social%20Invite%20Email%20Refresh_MODULE_FACEBOOK_MOBILE.ENG%20%281%29.png" alt="Facebook">
+                                                   </a>
+                                                   {{else}}
+                                                   <!-- Other ages: Facebook > Twitter > Instagram > TikTok -->
+                                                   <a href="https://www.fetch.com">
+                                                   <img align="center" border="0" width="580" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width:100%;max-width: 580px; height: auto; text-align: center;"  src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/editor_images/DSN2-6828%20%20%20Social%20Invite%20Email%20Refresh_MODULE_FACEBOOK_MOBILE.ENG%20%281%29.png" alt="Facebook">
+                                                   </a>
+                                                   <a href="https://www.fetch.com">
+                                                   <img align="center" border="0" width="580" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width:100%;max-width: 580px; height: auto; text-align: center;"  src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/editor_images/DSN2-6828%20%20%20Social%20Invite%20Email%20Refresh_MODULE_X_MOBILE.ENG_1.png" alt="X">
+                                                   </a>
+                                                   <a href="https://www.fetch.com">
+                                                   <img align="center" border="0" width="580" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width:100%;max-width: 580px; height: auto; text-align: center;"  src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/editor_images/DSN2-6828%20%20%20Social%20Invite%20Email%20Refresh_MODULE_INSTAGRAM_MOBILE.ENG%20%281%29_1.png" alt="Instagram">
+                                                   </a>
+                                                   <a href="https://www.fetch.com">
+                                                   <img align="center" border="0" width="580" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width:100%;max-width: 580px; height: auto; text-align: center;"  src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/editor_images/DSN2-6828%20%20%20Social%20Invite%20Email%20Refresh_MODULE_TIKTOK_MOBILE.ENG%20%282%29.png" alt="TikTok">
+                                                   </a>
+                                                   {{/if}}
+                                                   {{/with}}
+                                                </td>
+                                             </tr>
+                                             <!-- END SOCIAL MEDIA ORDER PER AGE -->
+                                             <!-- START FOOTER -->
+                                             <tr>
+                                                <td bgcolor="#F5F5F5" style="padding:0;border-collapse:collapse;" >
+                                                   <table width="100%" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;" role="presentation">
+                                                      <!-- START Right aligned padded Logo v1 -->
+                                                      <tr>
+                                                         <td class="one-column" style="padding:0;border-collapse:collapse;" >
+                                                            <table width="100%" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0;font-family: Arial, Helvetica, sans-serif;color:#444444;"  role="presentation">
+                                                               <tr>
+                                                                  <td style="padding-top:10px;padding-bottom:40px;padding-right:10px;padding-left:10px;border-collapse:collapse;text-align: center;" >
+                                                                     <a href="https://www.fetch.com">	
+                                                                     <img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a8154cab5f1b44d7828db857ef3be885/Fetch_Logo_Primary_Stacked.png" width="70" alt="Fetch" style="-ms-interpolation-mode:bicubic;border-width:0;width:100%;max-width:70px;height:auto;" /></a>
+                                                                  </td>
+                                                               </tr>
+                                                            </table>
+                                                         </td>
+                                                      </tr>
+                                                      <!-- END Logo -->
+                                                      <tr>
+                                                         <td style="color:#444444;border-collapse:collapse;padding-top:0;padding-bottom:40px;padding-right:30px;padding-left:30px;width:100%;text-align:center;" >
+                                                            <p style="margin:0;font-size:12px;line-height:18px;margin-bottom:12px;font-style:italic;" > &copy;&nbsp;2023 Fetch Rewards, Inc.  All rights reserved.</p>
+                                                            <p style="margin:0;font-size:12px;line-height:18px;margin-bottom:12px;"><span style="color:blue;">1050 E. Washington Ave.</span> 2nd Fl, Madison, WI  53703</p>
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                             <!-- END FOOTER -->
+                                             <!-- END OUTER WRAPPER -->
+                                          </table>
+                                       </td>
+                                    </tr>
+                                 </table>
+                                 <!--[if (gte mso 9)|(IE)]>
+                              </td>
+                           </tr>
+                        </table>
+                        <![endif]-->
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </center>
+         <!-- END OUTER WRAPPER -->
+      </template>
+   </body>
+</html>
